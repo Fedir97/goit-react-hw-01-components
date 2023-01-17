@@ -12,10 +12,10 @@ const randomColor = () => {
       Math.round(Math.random() * 255) +
       ',' +
       0.2 +
-      ')';
+      ')'
   
     return color;
-  };
+  }
   
   export const TransactionHistory = ({ items }) => {
     return (
@@ -36,12 +36,12 @@ const randomColor = () => {
                 <td>{amount}</td>
                 <td>{currency}</td>
               </tr>
-            );
+            )
           })}
         </tbody>
       </table>
-    );
-  };
+    )
+  }
   
   TransactionHistory.propTypes = {
     id: PropTypes.string.isRequired,

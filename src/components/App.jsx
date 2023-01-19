@@ -2,7 +2,7 @@ import Profile from "./WebProfile/Profile";
 import user from "../assets/user.json"
 import Statistics from "./Statistics/Statistics"
 import data from "../assets/data.json"
-import FriendsList from "./FriendsList/Friends"
+import FriendsList from "./FriendsList/FriendsList"
 import friends from "../assets/friends.json"
 import TransactionHistory from "./TransactionHistory/TransactionHistory"
 import transactions from "../assets/transactions.json"
